@@ -8,6 +8,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #A06CD5;
 }
 
 /* HEADER */
@@ -39,12 +40,18 @@ a {
 
 /* MAIN CONTENT */
 .container {
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.content-item {
+  margin-bottom: 50px;
 }
 
 .underline {
   height: 3px;
   width: 100%;
+  margin-top: -8px;
   background-color: #512888;
 }
